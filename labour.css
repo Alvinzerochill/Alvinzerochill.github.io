@@ -1,0 +1,21 @@
+div{
+        text-align: center;
+}
+
+nav{
+    font-family: trebuchet ms, arial, helvetica;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header{text-align: center;
+        
+}
+
+h1{
+        color: red;
+ }
+
+ footer{
+        text-align: center;
+        color:green;
+ }
