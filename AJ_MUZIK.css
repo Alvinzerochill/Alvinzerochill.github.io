@@ -1,0 +1,651 @@
+body{
+    background-color:#fff;
+}
+
+.logohead{
+    text-align: center;
+    padding: 30px;
+}
+header{
+    background-color:#4d026d;
+    color: #ff8c00;
+    margin:-10px;
+    background-image: url('Aj_headerimage.png');
+    background-size: cover;
+}
+.logsign:hover{
+    background-color: #ff8c00;
+    text-decoration:underline;
+}
+
+    
+
+.heroimage{
+    text-align: center;
+    border-radius: 50px;
+}
+h1{text-align: center;
+    font-size: 50px;
+    color:#ff8c00 ;
+    font-family: helvetica;
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+    color:#4d026d ;
+    font-family: helvetica;
+}
+h3{ text-align: center;
+    border: 5px solid transparent;
+    background-color: #4d026d;
+    border-radius:50px;
+    margin:300px;
+    width: 30%;
+    margin-bottom:-150px;
+    padding:6px;
+    color:#fff;
+    font-size: 30px;
+    font-family: helvetica;
+    position: relative;
+    left: 15%   ;
+}
+h4{
+    text-align:justify;
+    color:#ff8c00;
+    font-size: 25px;
+    font-family: helvetica;
+}
+p{
+    font-size:20px;
+    color: #121111;
+    font-family: trebuchet ms;
+    
+}
+h6{
+    text-align: center;
+    color: #fff;
+}
+footer{
+    background-color: #121111;
+    height: 180px;
+    margin: -10px;
+    margin-top: 25px;
+    
+    padding:80px;
+    
+}
+table,td{
+    margin-left: 60px;
+}
+a{
+    margin:20px;
+    font-size: 21px;
+    font-family: footlight mt light;
+}
+
+a:link{
+    color:#ff8c00; 
+    text-decoration: none; 
+    font-family: helvetica;    
+}
+
+a:visited{
+    color:#ff8c00;  
+    text-decoration: none; 
+    font-weight: bolder;
+    font-family: helvetica;
+}
+
+a:hover{
+    color:#fff;
+    text-decoration: underline;
+    font-size: 21px;
+    font-family: helvetica;
+}
+
+a:active{
+    color: #ff0000;
+}
+
+.footer_link{
+    font-size:xx-small;
+    margin-left:20px;
+    margin-top: -40px;
+}
+
+.parent{
+    display: flex;
+    flex-flow:row wrap;
+    row-gap: 50px;
+    padding: 10px;
+    background-color:#fff;
+    justify-content: space-between;
+    width: 98%;
+    margin-top: -7px;
+}
+.child {
+    color: #fff;
+    font-size: 25px;
+    font-family: footlight mt light;
+    text-align: center;
+    margin: 5px;
+    height: 80px;
+    line-height: 80px;
+    width: 100px;
+    background-color:#fff;
+}
+button{
+    color: #fff;
+    background-color:#4d026d;
+    border: none;
+    border-radius: 25px;
+    padding: 18px;
+}
+
+.contenthome{
+    display: grid;
+    background-color:#eeecec;
+    padding:10px;
+    grid-gap:10px;
+    grid-template-columns: auto auto;
+    margin: 200px;
+    text-align:center;
+    
+}
+.contenthome > div{
+    color:#000;
+    background-color:#fff;
+    padding: 90px;
+    font-size: 15px;
+    text-align:justify;
+    font-family: footlight mt light;
+    height:80px;
+    width: 71%;
+    
+    
+}
+.ContentMusic{
+    display: grid;
+    background-color:#eeecec;
+    padding:10px;
+    grid-gap:10px;
+    grid-template-columns: auto auto;
+    margin: 200px;
+    
+
+}
+.ContentMusic > div {
+    color:#000;
+    background-color: #ffffff;
+    padding: 90px;
+    font-size: 15px;
+    text-align: center;
+    font-family: footlight mt light;
+    grid-template-columns: auto auto;
+    height: 80px;
+    width: 68%;
+    
+}
+
+.contentnews{
+    display: grid;
+    background-color:#eeecec;
+    padding:7px;
+    grid-gap:10px;
+    grid-template-columns:auto auto auto auto;
+    margin:30px;
+    margin-bottom:10px;
+}
+.contentnews > div {
+    color:#121111;
+    background-color:#fff;
+    padding:60px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: helvetica;
+    grid-template-columns: auto auto auto auto;   
+}
+
+.contentnews2{
+    display: grid;
+    background-color:#eeecec;
+    padding:7px;
+    grid-gap:10px;
+    grid-template-columns:auto auto auto auto;
+    margin:30px;
+    margin-bottom:300px;
+}
+.contentnews2 > div {
+    color:#121111;
+    background-color:#fff;
+    padding:60px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: helvetica;
+    grid-template-columns: auto auto auto auto;
+    
+    
+}
+
+.button_for_images{
+    text-align: right;
+    margin-right:20px;
+    font-size:15px;
+    background-color:#ff8c00;
+    position: relative;
+    top: -80px;
+    left: -88px;
+}
+.button_for_music{
+    text-align: right;
+    margin-right:20px;
+    font-size:15px;
+    background-color:#ff8c00;
+    position: relative;
+    top: -81px;
+    left: -150px;
+}
+.button_news{
+    position: relative;
+    bottom: -55px;
+    left: -55px;
+    font-size: 10px;
+    height: 10px, 10px;
+    text-align: center;
+    font-family: helvetica;
+}
+
+article{
+    margin:-20px;
+    font-size: 18px;
+}
+
+.music_music{
+    display: grid;
+    background-color:#eeecec;
+    padding:7px;
+    grid-gap:10px;
+    grid-template-columns:auto auto; 
+    margin:200px;
+}
+.music_music > div{
+    color:#000;
+    background-color:#fff;
+    padding:60px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: footlight mt light;
+    grid-template-columns: auto auto;
+}
+
+.music_hero{
+    border: 2px solid #fff;
+    padding: 10px;
+    background-color: #4d026d;
+    font-size:18px;
+    color: #ff8c00;
+}
+.music_hero_border{
+    border:2px solid transparent;
+    padding:20px;
+    margin:300px;
+    background-color: #eeecec;
+    margin-top: -5px;
+}
+.music_border_head{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -15px;
+    color:#4d026d;
+    background-color: transparent;
+}
+
+.music_tail{
+    color:aqua
+}
+.music_write{
+    color:#121111;
+    font-size: 20px;
+}
+
+.song{
+    text-align: center;
+    border:4px solid #ff8c00;
+    border-radius: 50px;
+    background-color: #4d026d;
+    color: #fff;
+    padding: 15px;
+    margin: 580px;
+    margin-top: -10px;
+    margin-bottom:20px;
+    width: 120px;
+
+}
+
+.songpage4h{
+    font-size: 20px;
+    color: #424040;
+    margin-bottom: -20px;
+    text-align:start;
+    
+}
+
+.music_list{
+    display: grid;
+    background-color:#eeecec;
+    padding:10px;
+    grid-gap:10px;
+    grid-template-columns:auto auto; 
+    margin:200px;
+    margin-top: -150px;
+
+}
+.music_list > div{
+    color:#000;
+    background-color:#fff;
+    padding:40px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: footlight mt light;
+    grid-template-columns: auto auto;
+    height: 140px;
+}
+
+.music_list2{
+    display: grid;
+    background-color:#eeecec;
+    padding:10px;
+    grid-gap:10px;
+    grid-template-columns:auto auto; 
+    margin:200px;
+    margin-top: -150px;
+
+}
+.music_list2 > div{
+    color:#000;
+    background-color:#fff;
+    padding:40px;
+    font-size: 15px;
+    text-align: right;
+    font-family: footlight mt light;
+    grid-template-columns: auto auto;
+    height: 140px;
+    padding-right: 170px;
+    text-align:center;
+}
+.music_list3{
+    display:grid;
+    background-color:#eeecec;
+    padding:10px;
+    grid-gap:10px;
+    grid-template-columns:auto auto; 
+    margin:200px;
+    margin-top: -150px;
+
+}
+.music_list3 > div{
+    color:#000;
+    background-color:#fff;
+    padding:40px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: footlight mt light;
+    grid-template-columns: auto auto;
+    height: 140px;
+    padding-right: 170px;
+}
+
+.music_list4{
+    display: grid;
+    background-color:#eeecec;
+    padding:10px;
+    grid-gap:10px;
+    grid-template-columns:auto auto; 
+    margin:200px;
+    margin-top: -150px;
+
+}
+.music_list4 > div{
+    color:#000;
+    background-color:#fff;
+    padding:40px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: footlight mt light;
+    grid-template-columns: auto auto;
+    height: 140px;
+    padding-right: 170px;
+}
+
+
+.buttonlist{
+    color: #fff;
+    background-color:#4d026d;
+    border: none;
+    border-radius: 0%;
+    padding:4px;
+    position: relative;
+    bottom:30px;
+    left:-35px;
+}
+
+.musiclist_border{
+    border: 2px solid transparent;
+}
+
+.entertainment{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #ff8c00;
+    padding:1px;
+    padding-left: 5px;
+    margin: 5px;
+    color:#fff;
+    width: 100%;
+
+}
+
+.entertainment > div{
+    background-color: #ff8c00;
+    width: 97%;
+    height: 200px;
+    margin:2px;
+    text-align: center;
+    padding:-400px;
+
+}
+
+.entertainmenthero{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap:1px;
+    background-color:#eeecec;
+    margin: 250px;
+    height: fit-content;
+}
+.entertainmenthero > div{
+    grid-gap: 10px;
+    background-color: #ff8c00;
+    color: #eeecec;
+    margin: 10px;
+    padding: 200px;
+    height:150px;
+}
+
+.enter{
+    text-align: center;
+    border:4px solid #ff8c00;
+    border-radius: 50px;
+    background-color: #4d026d;
+    color: #fff;
+    padding: 12px;
+    margin: 650px;
+    margin-top: 100px;
+    margin-bottom:-420px;
+    width: 140px;
+    position: absolute;
+    right:-60px;
+    bottom:310px;
+}
+.moviez{
+    text-align: center;
+    border:4px solid #ff8c00;
+    border-radius: 50px;
+    background-color: #4d026d;
+    color: #fff;
+    padding: 10px;
+    margin: 550px;
+    margin-bottom:12px;
+    margin-top: -50px;
+
+}
+
+.entertainmentwrite{
+    font-size: 25px;
+    background-color:#3e3c3c;
+    opacity:70%;
+    position: relative;
+    top: 210px;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 2px 2px 5px #121111;
+}
+.entertainmentwritebutton{
+    color:#fff;
+    background-color: #ff8c00;
+    border-radius: unset;
+    margin: 50px;
+    position: relative;
+    bottom: 370px;
+    right: 230px;
+    padding: 7px;
+    
+}
+.entertainment2{
+    display: grid;
+    background-color:#eeecec;
+    padding:10px;
+    grid-gap:10px;
+    grid-template-columns:auto auto; 
+    margin:200px;
+    margin-top: -150px;
+}
+
+.entertainment22{
+    color:#000;
+    background-color:#fff;
+    padding:100px;
+    font-size: 10px;
+    text-align: justify;
+    font-family: footlight mt light;
+    grid-template-columns: auto auto;
+    height: 50px;
+}
+.enter2button{
+    background-color: #4d026d;
+    color: #fff;
+    border: none;
+    border-radius: unset;
+    padding: 5px;
+    position: relative;
+    right:75%;
+    top: -90px;
+}
+.enterheroheader{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline;
+    color:#ff8c00;
+    background-color: transparent;
+    margin: 15px;
+    margin-bottom:-20px;
+    margin-top: 40px;
+}
+.textforentertainment{
+    font-size: 20px;
+    color: #424040;
+    margin-top: -30px;
+    text-align:start;
+    line-height: 30px;
+}
+
+.contactimage{
+    text-align: center;
+    margin-top:-150px;
+}
+
+form{
+    text-align: center;
+    font-family: trebuchet ms;
+    font-weight: bold;
+    background-color: #ff8c00;
+}
+.pcontact{
+    text-align: center;
+}
+.contact_boda{
+    border: 2px solid #eeecec;
+    margin: 250px;
+    padding:10px;
+    background-color:#eeecec;
+}
+.contacth3{
+    text-align: center;
+    border:unset;
+    background-color:unset;
+    border-radius:unset;
+    margin:unset;
+    width: unset;
+    margin-bottom:-60px;
+    padding:unset;
+    color:#121111;
+    font-size: 30px;
+    font-family: helvetica;
+    position:relative;
+    top:90px;
+    left:-5px;
+}
+.con{
+    border: 2px solid #ff8c00;
+    background-color: #4d026d;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin:50px;
+    text-align: center;
+    width: 20%;
+    position: relative;
+    left: 30%;
+    top: -120px;
+}
+.sportbutton{
+    background-color: #4d026d;
+    color: #fff;
+    border: none;
+    border-radius: unset;
+    padding: 5px;
+    position: relative;
+    right:165%;
+    top: -90px;
+}
+
+.entling{
+    color: #3e3c3c;
+
+}
+
+.entling:any-link{
+    color: #424040;
+}
+
+.entling:visited{
+    color: #424040;
+}
+.entling:hover{
+    color:#ff8c00;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.entling:active{
+    color: #ff0000;
+}
